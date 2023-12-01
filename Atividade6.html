@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6</title>
+</head>
+<body>
+    <Script>
+       document.write("<footer>"); 
+        alert("*** Bem vindo ao COMEX ***");
+        document.write("<h1>>> COMEX <<</h1>");
+        document.write("<h2>:: Lista de Clientes</h2>");
+        document.write("<hr>");
+
+        document.write("<h3>Código: 1</h3>");
+
+        document.write("<p>Nome: Marina</p>");
+        document.write("<p>Mês de nascimento: Fevereiro</p>")
+        document.write("<p>Ano de Nascimento: 1980</p>");
+
+        document.write("<hr>");
+
+        document.write("<h3>Código: 2</h3>");
+
+        document.write("<p>Nome: João</p>");
+        document.write("<p>Mês de nascimento: Maio</p>");
+        document.write("<p>Ano de Nascimento: 1981</p>");
+
+        document.write("<hr>");
+
+        document.write("<h3>Código: 3</h3>");
+        document.write("<p>Nome: Maria</p>");
+        document.write("<p>Mês de nascimento: Novembro</p>")
+        document.write("<p>Ano de Nascimento: 1984</p>");
+
+        document.write("<hr>");
+         
+
+        let ano = 2023
+        let idade1 = (ano - 1980);
+        let idade2 = (ano - 1981);
+        let idade3 = (ano - 1984);
+        let totalIdade = (idade1 + idade2 + idade3);
+        let mediaIdade = (totalIdade / 3);
+
+        document.write("***Estatística***");
+        document.write("<p>Soma das Idades: " + (totalIdade) + " anos</p>");
+        document.write("<p>Média das Idades: " + (mediaIdade.toFixed(0)) + "</p>");
+
+
+    
+        document.write("</footer>");
+    </Script>
+    
+</body>
+</html>
