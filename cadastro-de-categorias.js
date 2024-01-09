@@ -8,7 +8,7 @@
 
             if (imprime.value.trim() !== "") {
                 var novoParagrafo = document.createElement('p');
-                var texto = document.createTextNode("Código: " + contador + " Nome: " + imprime.value);
+                var texto = document.createTextNode("Codigo: " + contador + " Nome: " + imprime.value);
                 novoParagrafo.appendChild(texto);
 
                 bloco.appendChild(novoParagrafo);
