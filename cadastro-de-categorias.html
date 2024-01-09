@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Categorias</title>
     <link rel="stylesheet" href="cadastro-de-categoria.css">
 </head>
     <body>
+        <title>Cadastro de Categorias</title>
         <h1>>> COMEX <<</h1>
         <h2>:: Lista de Clientes</h2>
         <hr>
 
         Nome: <input type="text" id="nomeCliente">
         <button class="botao" onclick="salvar()">Criar</button>
+        <button class="botao" onclick="exibirCategorias()">Exibir Categorias</button>
         <hr>
 
-        <p id="blocoDeNotas"></p>
+        <div id="categoriasContainer"></div> 
+
+       
         <h2>:: Lista de categorias</h2>
-        <hr>
-
+       
+        <div id="categoriasContainer"></div>
+        <ul id="blocoDeNotas"></ul>
+        <hr> 
+    
         <script src="cadastro-de-categorias.js">
 
         </script>
