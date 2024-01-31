@@ -7,15 +7,15 @@ public class ListagemProdutos {
         String nomeCelular = "Celular";
         double precoCelular = 1470.76;
 
-        String lLinha = "―――――――――――――――";
+        String linha = "―――――――――――――――";
 
         System.out.println(">> Listagem dos Produtos");
         System.out.println();
-        System.out.println(lLinha);
+        System.out.println(linha);
         System.out.println("Nome: " + nomeLivros);
         System.out.println("Preço: R$ " + precoLivros);
         System.out.println();
-        System.out.println(lLinha);
+        System.out.println(linha);
         System.out.println("Nome: " + nomeCelular);
         System.out.println("Preço: R$ " + precoCelular);
 
