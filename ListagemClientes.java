@@ -7,15 +7,15 @@ public class ListagemClientes {
         String nome2 = "Claire";
         int nascimentoClaire = 2000;
 
-        String linha = "―――――――――――――――";
+        String lLinha = "―――――――――――――――";
 
         System.out.println(">> Listagem dos Clientes");
         System.out.println();
-        System.out.println(linha);
+        System.out.println(lLinha);
         System.out.println("Nome: " + nome1);
         System.out.println("Data de Nascimento: " + nascimentoJade);
         System.out.println();
-        System.out.println(linha);
+        System.out.println(lLinha);
         System.out.println("Nome: " + nome2);
         System.out.println("Data de Nascimento: " + nascimentoClaire);
 
